@@ -1,0 +1,42 @@
+.caption{
+    width: 80%;
+    left: 10%;
+    bottom: 10%;
+}
+
+.lightBox{
+   width: 100%;
+   height: 100vh;
+   background-color: #00000063;
+   position: fixed;
+   top: 0;
+   left: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   display: none;
+}
+
+.boxData{
+    width: 80%;
+    height: 80%;
+    background-color: teal;
+    background-image: url('../images/p-1.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boxData i{
+    font-size: 2rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+#close{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
